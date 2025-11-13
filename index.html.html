@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Alecio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- CUIDADO: el h1 no se cerraba bien -->
+        <h1>Para Mi Hermano De Otra Madre</h1>
+
+        <!-- La foto estará oculta al inicio -->
+        <div class="foto" style="display: none;">
+            <img src="img/foto_especial.jpg" alt="Foto especial">
+        </div>
+
+        <!-- Botón para mostrar todo -->
+        <button id="mostrarMensaje">Haz Click Para Continuar</button>
+
+        <!-- Texto del mensaje (también oculto) -->
+        <div class="mensaje" style="display: none;">
+            <p>
+                
+                <!-- Tu mensaje completo aquí -->
+            </p>
+        </div>
+
+        <!-- Asegúrate que la ruta y extensión del mp3 sea correcta -->
+        <audio id="musica" src="music/cancion.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
